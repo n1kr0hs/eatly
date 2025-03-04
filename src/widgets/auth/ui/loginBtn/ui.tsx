@@ -1,4 +1,4 @@
-import { Button } from "@/src/shared/ui/button";
+import { Button } from "@/src/shared/ui";
 import React from "react";
 
 export const LoginBtn: React.FC = () => {
