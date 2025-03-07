@@ -4,7 +4,7 @@ import { Text } from "./ui/text";
 
 export default function Hero() {
   return (
-    <section className="pt-32">
+    <section className="py-32">
       <Container className="flex items-center">
         <div className="flex-1 max-w-[49%]">
           <Text />
@@ -41,7 +41,7 @@ export default function Hero() {
         </div>
 
         <div className="relative">
-          <div className="relative before:content-[''] before:absolute before:top-[-4%] before:left-[5%] before:w-full before:h-full before:rounded-full before:bg-[#6c5fbc] z-[-1] after:content-[''] after:absolute after:top-[12%] after:right-[-19%] after:w-[100px] after:h-[100px] after:z-[-1] after:bg-[url('/images/arrow.svg')] after:bg-top after:bg-no-repeat after:bg-cover">
+          <div className="relative before:content-[''] before:absolute before:top-[-4%] before:left-[5%] before:w-full before:h-full before:rounded-full before:bg-[#6c5fbc] z-[-1] after:content-[''] after:absolute after:top-[12%] after:right-[-19%] after:w-[100px] after:h-[100px] after:z-[-1] after:bg-[url('/images/decor/arrow-var1.svg')] after:bg-top after:bg-no-repeat after:bg-cover">
             <Image
               src="/images/food.png"
               alt="Chiken hell"
@@ -50,7 +50,7 @@ export default function Hero() {
               className="relative"
             />
             <div className="absolute bottom-[95%] left-[50%] w-[73%]">
-              <div className="relative bg-white shadow-lg p-3 flex items-center rounded-2xl w-full before:content-[''] before:absolute before:bottom-[100%] before:right-[-5%] before:w-[42px] before:h-[28px] before:bg-[url('/images/pattern-1.svg')] before:bg-top before:bg-no-repeat before:bg-cover">
+              <div className="relative bg-white shadow-lg p-3 flex items-center rounded-2xl w-full before:content-[''] before:absolute before:bottom-[100%] before:right-[-5%] before:w-[42px] before:h-[28px] before:bg-[url('/images/decor/pattern-1.svg')] before:bg-top before:bg-no-repeat before:bg-cover">
                 <Image
                   src="/images/food.png"
                   alt="Chiken hell"
@@ -73,7 +73,7 @@ export default function Hero() {
             </div>
           </div>
           <div className="absolute bottom-[-15%] left-0 max-w-[50%]">
-            <div className="relative bg-white shadow-lg border border-gray-200 rounded-2xl p-2 after:content-[''] after:absolute after:top-[100%] after:left-[-16%] after:w-[38px] after:h-[33px] after:z-[2] after:bg-[url('/images/pattern-2.svg')] after:bg-top after:bg-no-repeat after:bg-cover">
+            <div className="relative bg-white shadow-lg border border-gray-200 rounded-2xl p-2 after:content-[''] after:absolute after:top-[100%] after:left-[-16%] after:w-[38px] after:h-[33px] after:z-[2] after:bg-[url('/images/decor/pattern-2.svg')] after:bg-top after:bg-no-repeat after:bg-cover">
               <Image
                 src="/images/graph.png"
                 alt="Graph image"

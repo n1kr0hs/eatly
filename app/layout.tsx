@@ -10,6 +10,7 @@ import {
 } from "next/font/google";
 import "@/src/app/styles/globals.css";
 import { Header } from "@/src/widgets/header";
+import { Footer } from "@/src/widgets/footer";
 
 const poppins = Poppins({
   variable: "--font-poppins",
@@ -64,6 +65,7 @@ export default function RootLayout({
       >
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
